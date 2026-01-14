@@ -149,5 +149,3 @@ async function playSong(guildId) {
 }
 
 client.login(process.env.DISCORD_TOKEN);
-      
-
