@@ -148,6 +148,6 @@ async function playSong(guildId) {
   });
 }
 
-/* ================= LOGIN ================= */
-client.login("YOUR_BOT_TOKEN_HERE");
+client.login(process.env.DISCORD_TOKEN);
+      
 
