@@ -1,3 +1,5 @@
+console.log("✅ Bot starting...");
+
 require("dotenv").config();
 
 const { Client, GatewayIntentBits } = require("discord.js");
